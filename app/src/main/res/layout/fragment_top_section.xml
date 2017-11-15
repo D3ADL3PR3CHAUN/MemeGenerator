@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mcgee.memegenerator.TopSectionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/topET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Top Text"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/botET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bottom Text"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/topET"/>
+
+    <Button
+        android:id="@+id/memifyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/botET"
+        android:layout_centerHorizontal="true"
+        android:text="@string/memify"/>
+
+</RelativeLayout>
